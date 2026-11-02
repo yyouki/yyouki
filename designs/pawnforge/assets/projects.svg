@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280" role="img" aria-labelledby="title desc">
+<title id="title">PawnForge — Projects explorer concept</title>
+<desc id="desc">A classic Qawno-style mobile IDE with a project tree for pawno, include and scriptfiles folders beside a Pawn code editor and compiler panel.</desc>
+<defs><linearGradient id="blue" x2="0" y2="1"><stop stop-color="#1765d0"/><stop offset="1" stop-color="#0645a8"/></linearGradient><style>
+.ui{font-family:Arial,sans-serif;fill:#111}.menu{font:20px Arial,sans-serif;fill:#111}.small{font:16px Arial,sans-serif;fill:#333}
+.tree{font:18px Arial,sans-serif;fill:#171717}.mono{font:21px Consolas,monospace;fill:#171717}.kw{fill:#092ee8}.inc{fill:#168328}.str{fill:#14752a}
+</style></defs>
+<rect width="720" height="1280" fill="#c9c9c9"/><rect width="720" height="44" fill="#050505"/><text x="24" y="30" font="20px Arial" fill="#fff">14:45</text><text x="605" y="30" font="18px Arial" fill="#fff">◈  ▰  85%</text>
+<rect y="44" width="720" height="64" fill="url(#blue)"/><text x="24" y="86" font="34px Arial" fill="#fff">♟</text><text x="72" y="84" font="bold 27px Arial" fill="#fff">PawnForge — [gamemode.pwn]</text>
+<rect y="108" width="720" height="52" fill="#ededed" stroke="#888" stroke-width="2"/><text x="24" y="142" class="menu">File</text><text x="104" y="142" class="menu">Edit</text><text x="190" y="142" class="menu">Search</text><text x="300" y="142" class="menu">Build</text><text x="395" y="142" class="menu">Options</text><text x="510" y="142" class="menu">Help</text>
+<rect y="160" width="720" height="68" fill="#e8e8e8" stroke="#8b8b8b" stroke-width="2"/><g stroke="#888" fill="#f3f3f3"><rect x="12" y="167" width="58" height="54"/><rect x="74" y="167" width="58" height="54"/><rect x="136" y="167" width="58" height="54"/><rect x="198" y="167" width="58" height="54"/><rect x="277" y="167" width="58" height="54"/><rect x="339" y="167" width="58" height="54"/><rect x="550" y="167" width="155" height="54"/></g>
+<g class="ui" font-size="31"><text x="30" y="205">▯</text><text x="88" y="205">📂</text><text x="149" y="205">▣</text><text x="211" y="205">▤</text><text x="294" y="205" fill="#1357b4">↶</text><text x="355" y="205" fill="#1357b4">↷</text><text x="565" y="203" fill="#148328">▶</text></g><text x="605" y="203" class="menu" font-weight="bold">Compile</text>
+<rect x="0" y="228" width="245" height="594" fill="#f5f5f5" stroke="#777" stroke-width="2"/><rect x="0" y="228" width="245" height="42" fill="url(#blue)"/><text x="16" y="257" font="bold 20px Arial" fill="#fff">Projects</text><text x="215" y="257" font="24px Arial" fill="#fff">×</text>
+<g class="tree">
+<text x="18" y="306">⊟  📁 MyGamemode</text>
+<text x="38" y="348">⊟  📁 pawno</text>
+<rect x="95" y="360" width="136" height="34" fill="#0d61c9"/><text x="103" y="384" fill="#fff">▣ gamemode.pwn</text>
+<text x="95" y="422">▤ filterscripts.pwn</text><text x="95" y="460">▤ scriptfiles.pwn</text>
+<text x="38" y="504">⊟  📁 include</text><text x="95" y="544">▤ a_samp.inc</text><text x="95" y="582">▤ sscanf2.inc</text>
+<text x="38" y="626">⊟  📁 scriptfiles</text><text x="95" y="666">▤ scriptfiles.txt</text>
+<path d="M16 690H229" stroke="#aaa" stroke-width="2"/>
+<text x="18" y="732">◉  Output</text><text x="95" y="772">▤ gamemode.amx</text>
+</g>
+<rect x="245" y="228" width="475" height="594" fill="#fff" stroke="#777" stroke-width="2"/><rect x="245" y="228" width="52" height="594" fill="#eee"/><g font="18px Consolas" fill="#555" text-anchor="end"><text x="285" y="268">1</text><text x="285" y="308">2</text><text x="285" y="348">3</text><text x="285" y="388">4</text><text x="285" y="428">5</text><text x="285" y="468">6</text><text x="285" y="508">7</text><text x="285" y="548">8</text><text x="285" y="588">9</text><text x="285" y="628">10</text><text x="285" y="668">11</text><text x="285" y="708">12</text><text x="285" y="748">13</text></g>
+<g class="mono"><text x="312" y="268"><tspan class="kw">#include</tspan><tspan> </tspan><tspan class="inc">&lt;a_samp&gt;</tspan></text><text x="312" y="348"><tspan class="kw">new</tspan><tspan> PlayerCount = 0;</tspan></text><text x="312" y="428"><tspan class="kw">public</tspan><tspan> OnGameModeInit()</tspan></text><text x="312" y="468">{</text><text x="347" y="508"><tspan>print(</tspan><tspan class="str">"Gamemode berhasil!"</tspan><tspan>);</tspan></text><text x="347" y="548"><tspan class="kw">return</tspan><tspan> 1;</tspan></text><text x="312" y="588">}</text><text x="312" y="668"><tspan class="kw">public</tspan><tspan> OnPlayerConnect(playerid)</tspan></text><text x="312" y="708">{</text><text x="347" y="748">PlayerCount++;</text></g>
+<rect y="822" width="720" height="48" fill="#e9e9e9" stroke="#888" stroke-width="2"/><rect x="7" y="827" width="120" height="39" fill="#b9d5f7" stroke="#777"/><text x="27" y="855" class="menu" font-weight="bold">Compiler</text><rect x="130" y="827" width="105" height="39" fill="#eee" stroke="#888"/><text x="151" y="855" class="menu">Output</text>
+<rect y="870" width="720" height="245" fill="#fff" stroke="#888" stroke-width="2"/><g class="mono" font-size="20"><text x="18" y="909">Pawn compiler 3.10.10</text><text x="18" y="941">Compiled successfully.</text><text x="18" y="973">0 warnings, 0 errors</text><text x="18" y="1005">Output file: gamemode.amx</text><text x="18" y="1068" fill="#17802d">Build finished.</text></g>
+<rect y="1115" width="720" height="48" fill="#e4e4e4" stroke="#999" stroke-width="2"/><text x="20" y="1147" class="small">Project: MyGamemode</text><text x="315" y="1147" class="small">File: gamemode.pwn</text>
+<rect y="1163" width="720" height="117" fill="#202d43"/><rect x="180" y="1163" width="180" height="117" fill="#173d79"/>
+<g font-family="Arial" text-anchor="middle" fill="#e9f1ff"><text x="90" y="1215" font-size="34">⌂</text><text x="90" y="1256" font-size="20">Home</text><text x="270" y="1215" font-size="34">▱</text><text x="270" y="1256" font-size="20">Projects</text><text x="450" y="1215" font-size="34">⚙</text><text x="450" y="1256" font-size="20">Settings</text><text x="630" y="1215" font-size="34">ⓘ</text><text x="630" y="1256" font-size="20">About</text></g>
+</svg>
